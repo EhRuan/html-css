@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*
+
+Em Html eh id = em Css eh # (só pode um elemento)
+Em Html eh class =  em Css eh .(pode vários elementos)
+
+Em id poder por o elemento antes do símbolo
+Em class não eh preciso por o elemento
+*/
+
+body{
+    background-color: rgb(128, 128, 248);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(18, 18, 217);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: white;
+}
+
+h2{
+    color: rgb(26, 26, 80);
+}
+
+p{
+    text-indent: 30px;
+}
+
+.basico{
+    color: red;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: purple;
+}

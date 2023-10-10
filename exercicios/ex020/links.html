@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        
+        /*
+            #   = id
+            .   = class
+            :   = pseudo-class
+            ::  = pseudo-element
+            >   = clilden (filho)
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: darkorange;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:visited{
+            color: darkblue;
+        }
+
+        a:hover{
+            color: lightblue;
+            text-decoration: underline;
+        }
+
+        .especial{
+            background-color: grey;
+
+        }
+
+        a:active{
+            color: red;
+        }
+
+        a::after{
+            content: " [link]";
+            text-decoration: none;
+            font-weight: bold;
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://steamcommunity.com/profiles/76561198441053660/" class="especial" target="_blank" rel="external">Minha Steam</a></li>
+        <li><a href="https://twitter.com/_ehruan_"target="_blank" rel="external">Meu Twitter</a></li>
+        <li><a href="https://u.gg/lol/profile/br1/ehruan/overview"target="_blank" rel="external">Meu Ug.gg</a></li>
+        <li><a href="https://www.sbt.com.br" target="_blank" rel="external">Sbt</a></li>
+    </ul>
+</body>
+</html>

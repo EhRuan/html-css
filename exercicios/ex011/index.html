@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Teste de imagens de tamanho variádos</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reporduzindo Áudio</h1>
+    <p>Uma musica pra sla né</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midias/Flying - TrackTribe.mp3" type="audio/mpeg">
+        <source src="midias/Flying - TrackTribe.ogg" type="audio/ogg">
+        <source src="midias/Flying - TrackTribe.wav" type="audio/wav">
+        <p>infelizmente seu navegador nao suporta audios, <a href="midias/Flying - TrackTribe.mp3"></a>mais pode baixar ele por aqui</p>
+    </audio>
+</body>
+</html>
